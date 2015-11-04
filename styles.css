@@ -1,0 +1,39 @@
+body {background: #EEE;
+}
+#SiteHeader {
+	display: flex; 
+	position: fixed;
+	background: linear-gradient(to bottom, #7d7e7d 0%,#0e0e0e 100%); 
+	top: 0;
+	left: 0;
+	right: 0;
+}
+#SiteHeader #GlobalTopBar #GlobalSearchBox {
+	width:30vw;
+}
+
+#SiteHeader #GlobalTopBar #GlobalActions {
+	width:45vw;
+}
+
+#SiteHeader #GlobalTopBar #GlobalMenu {
+	width:15vw;
+}
+#SiteHeader #GlobalMenu {
+	background: linear-gradient(to bottom, #383838 0%,#0e0e0e 100%);
+}
+#SiteHeader h1 { 
+color: white;
+margin-left: 2vw;
+margin-right: 2vw;
+}
+
+#SiteHeader #GlobalTopBar {
+display: flex;
+}
+
+#SiteHeader #SiteHeaderItems {
+	display: flex;
+	flex-flow: column;
+	justify-content: space-around;
+}
