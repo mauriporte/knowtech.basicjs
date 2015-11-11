@@ -1,0 +1,29 @@
+#html {
+    backgroud-color:black
+}
+
+#registrationForm label {
+width: 150px;
+display: block; 
+float:left;   
+}
+
+#registrationForm input[type="text"], #registrationForm input[type="email"], #registrationForm input[type="password"]  {
+padding:10px;
+box-shadow:5px 5px grey; 
+}
+
+#registrationForm input[type="checkbox"] {
+box-shadow:5px 5px grey;  
+}
+
+#registrationForm .field {
+padding:15px;
+border-bottom:green solid 2px;
+}
+
+#registrationForm .actions {
+padding:5px;
+border-top:black 25px;
+}
+
