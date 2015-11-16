@@ -1,4 +1,3 @@
-(function() {
     var Form = {
         createTooltip: function(text) {
             var rawTooltipTemplate = 
@@ -49,4 +48,10 @@
     document.addEventListener("DOMContentLoaded", function() {
         Form.appendTooltipNextTo("#repeatPassword", "Password doesn't match");
     });
-})();
+
+    var registerMeButton = document.getElementById("registerUserButton");
+    registerMeButton.addEventListener("click", function() {
+        var userNameElement = document.getElementById("userName");
+
+        Form.appendTooltipNextTo("#fieldId", "Name is empty!");
+    });
